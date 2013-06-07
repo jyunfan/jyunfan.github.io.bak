@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Go Deep, Have Fun]]></title>
-  <link href="http://jyunfan.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Go Deep, Have Fun]]></title>
+  <link href="http://jyunfan.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://jyunfan.github.io/"/>
   <updated>2013-06-07T21:08:49+08:00</updated>
   <id>http://jyunfan.github.io/</id>
