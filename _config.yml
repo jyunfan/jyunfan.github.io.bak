@@ -70,6 +70,10 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: JyunfanTsai
+twitter_tweet_count: 4
+twitter_show_replies: true
+twitter_follow_button: true
+twitter_show_follower_count: true
 twitter_tweet_button: true
 
 # Google +1
@@ -97,4 +101,4 @@ disqus_show_comment_count: false
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: true
+facebook_like: false
