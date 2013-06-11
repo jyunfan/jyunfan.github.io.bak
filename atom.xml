@@ -4,7 +4,7 @@
   <title><![CDATA[Go Deep, Have Fun]]></title>
   <link href="http://jyunfan.github.io/atom.xml" rel="self"/>
   <link href="http://jyunfan.github.io/"/>
-  <updated>2013-06-07T21:08:49+08:00</updated>
+  <updated>2013-06-09T12:12:09+08:00</updated>
   <id>http://jyunfan.github.io/</id>
   <author>
     <name><![CDATA[Jyunfan Tsai]]></name>
@@ -27,10 +27,25 @@
 <p>Octopress 有多好用？我只能說對 Programmer 實在親切，如以下幾點：</p>
 
 <ul>
-<li>可以用 Vim 寫 <a href="http://markdown.tw/">Markdown</a>，實在是比之前在 blogspot 方便太多了</li>
+<li>動靜分離。Octopress 利用 Jekyll 產生單純的 html ，不需要在 server 上裝 PHP, mysql 等一堆服務。單純的 HTTP server 就好了。寫好 blog 可以在自己的電腦上下 <code>rake preview</code> 指令，就可以在本機的 4000 埠上預覽。</li>
+<li>可以用 Vim 寫 <a href="http://markdown.tw/">Markdown</a>，實在是比之前在 blogspot 方便太多了。Markdown 的例子如下：</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>新 blog 的第一篇文就決定獻給 Octopress 這套 Blog framework。
+</span><span class='line'>    ...
+</span><span class='line'>    * 動靜分離。Octopress 利用 Jekyll 產生單純的 html ...
+</span><span class='line'>    * 可以用 Vim 寫 [Markdown](http://markdown.tw/)，實在是比之前在 blogspot 方便太多了。...</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
 <li>可以用 Git 作版本控制，文章可以在自己的電腦上修修改改，預覽之後再上傳</li>
 <li>使用 Github 同時兼有備份功能，再也不用煩惱備份</li>
-<li>貼程式碼時，有內建 <a href="http://ethanschoonover.com/solarized">solarized</a> 配色，和我在 Vim 中用的一樣，看起來相當順眼</li>
+<li>貼程式碼時，有內建 <a href="http://ethanschoonover.com/solarized">Solarized</a> 配色，和我在 Vim 中用的一樣，看起來相當順眼</li>
 </ul>
 
 
