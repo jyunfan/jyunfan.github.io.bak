@@ -9,11 +9,8 @@
   <meta name="author" content="Jyunfan Tsai">
 
   
-  <meta name="description" content="新 blog 的第一篇文就決定獻給 Octopress 這套 Blog framework。
-這篇文章主要是想推薦 Octopress，只要你會用 Git ，使用上大概就沒有問題。
-像我對 Octopress 使用的 Jekyll 和 Ruby 都不熟，
-但是只要依照官方說明，
-不用一小時就能在 &hellip;">
+  <meta name="description" content="Bitmessage 是一種 P2P 的通訊協定，可以讓你發訊息給另外一個人，或是任意數量的訂閱者。 安裝在 Max OS X 上 我自己嘗試安裝 Bitmessage 在 Max OS X 10.8 上，很可惜目前只有 Windows 版的程式可直接下載，
+還好官方網站提供了由源碼安裝的方法， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -69,6 +66,62 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/15/bitmessage/">Bitmessage</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-15T22:21:00+08:00" pubdate data-updated="true">Jun 15<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://bitmessage.org/wiki/Main_Page">Bitmessage</a> 是一種 P2P 的通訊協定，可以讓你發訊息給另外一個人，或是任意數量的訂閱者。</p>
+
+<h2>安裝在 Max OS X 上</h2>
+
+<p>我自己嘗試安裝 Bitmessage 在 Max OS X 10.8 上，很可惜目前只有 Windows 版的程式可直接下載，
+還好官方網站提供了由源碼安裝的方法，
+請見<a href="https://bitmessage.org/wiki/Compiling_instructions">說明</a>。
+其中安裝 pyqt 時如果遇到錯誤</p>
+
+<pre><code>ImportError: No module named sipconfig
+</code></pre>
+
+<p>那表示你還需要安裝 SIP ，請到<a href="http://www.riverbankcomputing.co.uk/software/sip/download">此處</a>下載。
+解壓縮檔案後到目錄下使用以下指令安裝：</p>
+
+<pre><code>python configure.py
+make
+sudo make install
+</code></pre>
+
+<p>現在繼續執行 <code>brew install pyqt</code> 就沒問題了。</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -148,6 +201,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/06/15/bitmessage/">Bitmessage</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/06/07/octopress/">Octopress</a>
