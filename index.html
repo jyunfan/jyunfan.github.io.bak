@@ -9,7 +9,10 @@
   <meta name="author" content="Jyunfan Tsai">
 
   
-  <meta name="description" content="Bitmessage 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另外一個人，或是任意數量的訂閱者。 安裝在 Max OS X 上 我自己嘗試安裝 Bitmessage 在 Max OS X 10.8 上，很可惜目前只有 Windows 版的程式可直接下載， &hellip;">
+  <meta name="description" content="你在用 email 時，可會擔心自己放在伺服器上的資料被人窺看？如果說 email 服務商或是政府可以
+任意查看你的郵件內容時，你有什麼想法？
+Bitmessage 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另外一個人，
+或是任意數量的訂閱者，而不用擔心訊息內容被其他人窺探。 使用 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -94,14 +97,67 @@
   </header>
 
 
-  <div class="entry-content"><p><a href="https://bitmessage.org/wiki/Main_Page">Bitmessage</a> 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另外一個人，或是任意數量的訂閱者。</p>
+  <div class="entry-content"><p>你在用 email 時，可會擔心自己放在伺服器上的資料被人窺看？如果說 email 服務商或是政府可以
+任意查看你的郵件內容時，你有什麼想法？
+<a href="https://bitmessage.org/wiki/Main_Page">Bitmessage</a> 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另外一個人，
+或是任意數量的訂閱者，而不用擔心訊息內容被其他人窺探。</p>
 
-<h2>安裝在 Max OS X 上</h2>
+<h2>使用 Bitmessage</h2>
 
-<p>我自己嘗試安裝 Bitmessage 在 Max OS X 10.8 上，很可惜目前只有 Windows 版的程式可直接下載，
-還好官方網站提供了由源碼安裝的方法，
-請見<a href="https://bitmessage.org/wiki/Compiling_instructions">說明</a>。簡單來說就是先裝 Homebrew 這個套件管理程式，
-然後用它安裝必要的函式庫 pyqt 和 openssl。如果你在安裝 pyqt 時遇到錯誤</p>
+<p>Windows 安裝程式由此<a href="https://bitmessage.org/download/windows/Bitmessage.exe">下載</a>。使用 Mac 的朋友請見下一段
+我的安裝經驗。開啓程式後是空白狀態，你需要先建立自己的地址，點選 &ldquo;Your Identities&rdquo; 分頁。</p>
+
+<p><img src="https://lh5.googleusercontent.com/-iV5f4QcTBWg/Ubx85n7C9QI/AAAAAAAAAlw/7Et8D9GCKmk/s938/bitmessage-identity.png"></p>
+
+<p>有兩種產生地址的方式，先採用預設值即可。產生地址後就可以選 &ldquo;Send&rdquo; 分頁來寄出訊息給朋友。
+趕快讓你的朋友也裝上 Bitmessage 吧。</p>
+
+<p>寄出訊息有兩種方法:</p>
+
+<ol>
+<li>Send to one or more specific people</li>
+<li>Broadcast to everyone who is subscribed to your address</li>
+</ol>
+
+
+<p>第一種就像一般的 email ，指定收件者的地址。第二種比較有意思，可以讓別人來訂閱你的地址，當你選擇這個方式時，
+所有訂閱你地址的人都會收到信。</p>
+
+<h2>模擬 mailing list</h2>
+
+<p>Special address behavior</p>
+
+<h2>安裝在 Max OS X 10.8 上</h2>
+
+<p>到 2013 年 6 月為止，目前的 Bitmessage 版本為 0.3.3-2 Beta，只有提供 Windows 版的執行檔。
+Linux 和 Mac 的朋友需要由源碼安裝。
+雖然官方網站提供了由源碼安裝的<a href="https://bitmessage.org/wiki/Compiling_instructions">方法</a>，
+但是實際執行時會遇到一些困難，以下是我自己嘗試在 Max OS X 10.8 上的安裝經驗。</p>
+
+<h3>安裝 Homebrew 套件管理程式</h3>
+
+<pre><code>ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+</code></pre>
+
+<h3>若Mac內建的 Python 的版本早於 2.7.3 ，用 brew 安裝新版的 Python 2.7.5</h3>
+
+<pre><code>brew install python
+brew link --overwrite python
+sudo mv /usr/bin/python /usr/bin/python.original
+sudo ln -s /usr/local/Cellar/python/2.7.5/bin/python /usr/bin/python
+</code></pre>
+
+<h3>安裝 openssl</h3>
+
+<pre><code>brew install openssl
+</code></pre>
+
+<h3>安裝 pyqt</h3>
+
+<pre><code>brew install pyqt
+</code></pre>
+
+<p>如果你在安裝 pyqt 時遇到錯誤</p>
 
 <pre><code>ImportError: No module named sipconfig
 </code></pre>
@@ -116,9 +172,9 @@ sudo make install
 
 <p>現在繼續執行 <code>brew install pyqt</code> 就沒問題了。請注意安裝 pyqt 很花時間，請耐心等候。</p>
 
-<p>安裝好 pyqt 依照說明下載 Bitmessage 的源碼後即可執行：</p>
+<h3>下載 PyBitmessage 並執行</h3>
 
-<pre><code>cd ~/Desktop
+<pre><code>cd ~/
 git clone git://github.com/Bitmessage/PyBitmessage.git
 cd PyBitmessage
 python src/bitmessagemain.py
@@ -134,18 +190,14 @@ You may now see threading errors related to this abrupt exit
 but the problem you need to solve is related to SQLite.
 </code></pre>
 
-<p>請升級 Mountain Lion 預設的 Python 到 2.7.5 或以上。</p>
+<p>請執行步驟2，升級 Mountain Lion 預設的 Python 到 2.7.5 或以上。</p>
 
-<pre><code>brew install python
-brew link --overwrite python
-sudo mv /usr/bin/python /usr/bin/python-2.7.2
-sudo ln -s /usr/local/Cellar/python/2.7.5/bin/python /usr/bin/python
-</code></pre>
+<h2>參考資料</h2>
 
-<h2>使用 Bitmessage</h2>
+<ul>
+<li><a href="http://btm.wmqying.com/">中文化以及簡介</a></li>
+</ul>
 
-<p>花了半個小時才裝好 Bitmessage ，如果用 Windows 的朋友應該會容易許多。剛打開程式想必不知道要怎麼使用，
-可見官方的 <a href="https://bitmessage.org/wiki/FAQ">FAQ</a>。</p>
 </div>
   
   

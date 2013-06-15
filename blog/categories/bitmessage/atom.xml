@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Go Deep, Have Fun]]></title>
-  <link href="http://jyunfan.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Bitmessage | Go Deep, Have Fun]]></title>
+  <link href="http://jyunfan.github.io/blog/categories/bitmessage/atom.xml" rel="self"/>
   <link href="http://jyunfan.github.io/"/>
   <updated>2013-06-15T23:03:21+08:00</updated>
   <id>http://jyunfan.github.io/</id>
@@ -28,7 +28,7 @@
 <p>Windows 安裝程式由此<a href="https://bitmessage.org/download/windows/Bitmessage.exe">下載</a>。使用 Mac 的朋友請見下一段
 我的安裝經驗。開啓程式後是空白狀態，你需要先建立自己的地址，點選 &ldquo;Your Identities&rdquo; 分頁。</p>
 
-<p><img src="https://lh5.googleusercontent.com/-iV5f4QcTBWg/Ubx85n7C9QI/AAAAAAAAAlw/7Et8D9GCKmk/s938/bitmessage-identity.png"></p>
+<p><img class="<a" src="href="https://lh5.googleusercontent.com/-iV5f4QcTBWg/Ubx85n7C9QI/AAAAAAAAAlw/7Et8D9GCKmk/s938/bitmessage-identity.png">https://lh5.googleusercontent.com/-iV5f4QcTBWg/Ubx85n7C9QI/AAAAAAAAAlw/7Et8D9GCKmk/s938/bitmessage-identity.png</a>"></p>
 
 <p>有兩種產生地址的方式，先採用預設值即可。產生地址後就可以選 &ldquo;Send&rdquo; 分頁來寄出訊息給朋友。
 趕快讓你的朋友也裝上 Bitmessage 吧。</p>
@@ -119,46 +119,6 @@ but the problem you need to solve is related to SQLite.
 <li><a href="http://btm.wmqying.com/">中文化以及簡介</a></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[octopress]]></title>
-    <link href="http://jyunfan.github.io/blog/2013/06/07/octopress/"/>
-    <updated>2013-06-07T17:32:00+08:00</updated>
-    <id>http://jyunfan.github.io/blog/2013/06/07/octopress</id>
-    <content type="html"><![CDATA[<p>新 blog 的第一篇文就決定獻給 Octopress 這套 Blog framework。
-這篇文章主要是想推薦 Octopress，只要你會用 Git ，使用上大概就沒有問題。
-像我對 Octopress 使用的 Jekyll 和 Ruby 都不熟，
-但是只要依照<a href="http://octopress.org/docs/setup/">官方說明</a>，
-不用一小時就能在 <a href="http://pages.github.com/">Github Pages</a> 上建立一個自己的 blog。</p>
-
-<p>Octopress 有多好用？我只能說對 Programmer 實在親切，如以下幾點：</p>
-
-<ul>
-<li>動靜分離。Octopress 利用 Jekyll 產生單純的 html ，不需要在 server 上裝 PHP, mysql 等一堆服務。單純的 HTTP server 就好了。寫好 blog 可以在自己的電腦上下 <code>rake preview</code> 指令，就可以在本機的 4000 埠上預覽。</li>
-<li>可以用 Vim 寫 <a href="http://markdown.tw/">Markdown</a>，實在是比之前在 blogspot 方便太多了。Markdown 的例子如下：</li>
-</ul>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>新 blog 的第一篇文就決定獻給 Octopress 這套 Blog framework。
-</span><span class='line'>    ...
-</span><span class='line'>    * 動靜分離。Octopress 利用 Jekyll 產生單純的 html ...
-</span><span class='line'>    * 可以用 Vim 寫 [Markdown](http://markdown.tw/)，實在是比之前在 blogspot 方便太多了。...</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li>可以用 Git 作版本控制，文章可以在自己的電腦上修修改改，預覽之後再上傳</li>
-<li>使用 Github 同時兼有備份功能，再也不用煩惱備份</li>
-<li>貼程式碼時，有內建 <a href="http://ethanschoonover.com/solarized">Solarized</a> 配色，和我在 Vim 中用的一樣，看起來相當順眼</li>
-</ul>
-
-
-<p>其餘好處請見 XDite 大大的 <a href="http://blog.xdite.net/posts/2011/10/07/what-is-octopress/">Why Octopress?</a></p>
 ]]></content>
   </entry>
   
