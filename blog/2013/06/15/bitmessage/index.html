@@ -120,9 +120,19 @@ Bitmessage 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另�
 <p>第一種就像一般的 email ，指定收件者的地址。第二種比較有意思，可以讓別人來訂閱你的地址，當你選擇這個方式時，
 所有訂閱你地址的人都會收到信。</p>
 
-<h2>模擬 mailing list</h2>
+<h2>群組寄信</h2>
 
-<p>Special address behavior</p>
+<p>想像 A、B、C 三人要一起討論，一個方法是每個人都寄信給另外兩個人，
+這種方法可以運作，但是將來有其他人要加入時，每個人都要增加自己的清單。
+比較好的方法是利用群組信。</p>
+
+<p>Bitmessage 有一個很棒的功能，可以達成群組信的功能。
+設定方法為，打開 &ldquo;Your Identiies&rdquo; 分頁，右鍵點選某個地址，
+然後選 &ldquo;Special address behavior&#8221;，接著把行為設定成 &#8220;Behave as a pseudo-mailing-list address&#8221;。
+接下來每個想收到討論訊息的人，都訂閱此地址，想發訊息給群組的人，就直接寄信到這個地址。</p>
+
+<p>到此還有一個小問題，那就是建立群組地址的人必須持續執行 PyBitmessage。
+建議利用 Linux 伺服器來執行一個沒有 UI 的 daemon。方法請見<a href="https://bitmessage.org/wiki/Daemon">這裡</a>。</p>
 
 <h2>安裝在 Max OS X 10.8 上</h2>
 
@@ -266,6 +276,10 @@ but the problem you need to solve is related to SQLite.
       </li>
     
   </ul>
+</section>
+<section>
+  <h1>Categories</h1>
+    <ul id="category-list"><li><a href='/blog/categories/bitmessage/'>Bitmessage (1)</a></li><li><a href='/blog/categories/octopress/'>Octopress (1)</a></li></ul>
 </section>
 
 
