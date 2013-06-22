@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bitcoin | Go Deep, Have Fun]]></title>
+  <link href="http://jyunfan.github.io/blog/categories/bitcoin/atom.xml" rel="self"/>
+  <link href="http://jyunfan.github.io/"/>
+  <updated>2013-06-22T20:39:16+08:00</updated>
+  <id>http://jyunfan.github.io/</id>
+  <author>
+    <name><![CDATA[Jyunfan Tsai]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[當 Namecheap 遇上 Bitcoin]]></title>
+    <link href="http://jyunfan.github.io/blog/2013/06/22/namecheap/"/>
+    <updated>2013-06-22T11:37:00+08:00</updated>
+    <id>http://jyunfan.github.io/blog/2013/06/22/namecheap</id>
+    <content type="html"><![CDATA[<p>你有自己的網域嗎？沒有的話不妨考慮申請一個，可以用在自己的 blog 或是 email 上。</p>
+
+<p>為了給自己的 blog 一個網址，我在 Namecheap 上註冊了 JyunfanTsai.com 。
+選擇 Namecheap 的一個原因是它支援 Bitcoin 付款，操作方法如下：
+首先選擇 &ldquo;MY ACCOUNT&rdquo; => &ldquo;Add Funds"，第一個儲值方式就是 "Add Funds Using Bitcoins"。
+選擇此方式之後會出現如下畫面：</p>
+
+<p><img class="<a" src="href="https://lh6.googleusercontent.com/-5zDC82xer9k/Ub6Ih5Ngp0I/AAAAAAAAAmU/CU0hClDr23o/s912/namecheap-bitcoin.png">https://lh6.googleusercontent.com/-5zDC82xer9k/Ub6Ih5Ngp0I/AAAAAAAAAmU/CU0hClDr23o/s912/namecheap-bitcoin.png</a>"></p>
+
+<p>輸入你想要儲值的金額，確定後會出現一個 Bitcoin 地址，在 15 分鐘之內把
+Bitcoin 匯到此地址就可以。匯款完成之後需要等約一小時完成確認。
+需要注意的是 Namecheap 的使用條款，他說存入的 Bitcoin 是無法退款的，請確認金額再轉帳。</p>
+]]></content>
+  </entry>
+  
+</feed>
