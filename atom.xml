@@ -4,7 +4,7 @@
   <title><![CDATA[Go Deep, Have Fun]]></title>
   <link href="http://jyunfan.github.io/atom.xml" rel="self"/>
   <link href="http://jyunfan.github.io/"/>
-  <updated>2013-06-25T23:17:25+08:00</updated>
+  <updated>2013-06-30T11:08:05+08:00</updated>
   <id>http://jyunfan.github.io/</id>
   <author>
     <name><![CDATA[Jyunfan Tsai]]></name>
@@ -14,10 +14,29 @@
 
   
   <entry>
+    <title type="html"><![CDATA[如何在 Octopress 中建立 about 頁面]]></title>
+    <link href="http://jyunfan.github.io/posts/2013/06/30/create-about/"/>
+    <updated>2013-06-30T13:34:00+08:00</updated>
+    <id>http://jyunfan.github.io/posts/2013/06/30/create-about</id>
+    <content type="html"><![CDATA[<p>當在逛別人用 Octopress 建立的<a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">網站</a>時，
+看到一些非 blog 的頁面，如 About，這是官網安裝步驟沒有提到的。經過尋找後，看到好心人士簡單說明他的作法。
+要建立 About 頁面只需要兩個動作：</p>
+
+<ol>
+<li>用 rake 產生一個名為 about 的 page : <code>rake new_page["about"]</code></li>
+<li>將此 page 的聯結放到 menu 上 : 修改 template <code>./source/about/index.markdown</code></li>
+</ol>
+
+
+<p>詳細步驟請見 <a href="http://amaras-tech.co.uk/article/222">Add about page to Octopress</a>。</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[當 Namecheap 遇上 Bitcoin]]></title>
-    <link href="http://jyunfan.github.io/blog/2013/06/22/namecheap/"/>
+    <link href="http://jyunfan.github.io/posts/2013/06/22/namecheap/"/>
     <updated>2013-06-22T11:37:00+08:00</updated>
-    <id>http://jyunfan.github.io/blog/2013/06/22/namecheap</id>
+    <id>http://jyunfan.github.io/posts/2013/06/22/namecheap</id>
     <content type="html"><![CDATA[<p>你有自己的網域嗎？沒有的話不妨考慮申請一個，可以用在自己的 blog 或是 email 上。</p>
 
 <p>為了給自己的 blog 一個網址，我在 Namecheap 上註冊了 JyunfanTsai.com 。
@@ -34,10 +53,10 @@ Bitcoin 匯到此地址就可以。匯款完成之後需要等約一小時完成
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Bitmessage]]></title>
-    <link href="http://jyunfan.github.io/blog/2013/06/15/bitmessage/"/>
+    <title type="html"><![CDATA[Bitmessage - 新興的 P2P 的通訊軟體]]></title>
+    <link href="http://jyunfan.github.io/posts/2013/06/15/bitmessage/"/>
     <updated>2013-06-15T22:21:00+08:00</updated>
-    <id>http://jyunfan.github.io/blog/2013/06/15/bitmessage</id>
+    <id>http://jyunfan.github.io/posts/2013/06/15/bitmessage</id>
     <content type="html"><![CDATA[<p>你在用 email 時，可會擔心自己放在伺服器上的資料被人窺看？如果說 email 服務商或是政府可以
 任意查看你的郵件內容時，你有什麼想法？
 <a href="https://bitmessage.org/wiki/Main_Page">Bitmessage</a> 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另外一個人，
@@ -153,10 +172,10 @@ but the problem you need to solve is related to SQLite.
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[octopress]]></title>
-    <link href="http://jyunfan.github.io/blog/2013/06/07/octopress/"/>
+    <title type="html"><![CDATA[Octopress]]></title>
+    <link href="http://jyunfan.github.io/posts/2013/06/07/octopress/"/>
     <updated>2013-06-07T17:32:00+08:00</updated>
-    <id>http://jyunfan.github.io/blog/2013/06/07/octopress</id>
+    <id>http://jyunfan.github.io/posts/2013/06/07/octopress</id>
     <content type="html"><![CDATA[<p>新 blog 的第一篇文就決定獻給 Octopress 這套 Blog framework。
 這篇文章主要是想推薦 Octopress，只要你會用 Git ，使用上大概就沒有問題。
 像我對 Octopress 使用的 Jekyll 和 Ruby 都不熟，

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Bitmessage | Go Deep, Have Fun]]></title>
   <link href="http://jyunfan.github.io/blog/categories/bitmessage/atom.xml" rel="self"/>
   <link href="http://jyunfan.github.io/"/>
-  <updated>2013-06-25T23:17:25+08:00</updated>
+  <updated>2013-06-30T11:08:05+08:00</updated>
   <id>http://jyunfan.github.io/</id>
   <author>
     <name><![CDATA[Jyunfan Tsai]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Bitmessage]]></title>
-    <link href="http://jyunfan.github.io/blog/2013/06/15/bitmessage/"/>
+    <title type="html"><![CDATA[Bitmessage - 新興的 P2P 的通訊軟體]]></title>
+    <link href="http://jyunfan.github.io/posts/2013/06/15/bitmessage/"/>
     <updated>2013-06-15T22:21:00+08:00</updated>
-    <id>http://jyunfan.github.io/blog/2013/06/15/bitmessage</id>
+    <id>http://jyunfan.github.io/posts/2013/06/15/bitmessage</id>
     <content type="html"><![CDATA[<p>你在用 email 時，可會擔心自己放在伺服器上的資料被人窺看？如果說 email 服務商或是政府可以
 任意查看你的郵件內容時，你有什麼想法？
 <a href="https://bitmessage.org/wiki/Main_Page">Bitmessage</a> 是一種 P2P 的通訊協定，可以讓你安全的發訊息給另外一個人，

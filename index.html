@@ -9,9 +9,9 @@
   <meta name="author" content="Jyunfan Tsai">
 
   
-  <meta name="description" content="你有自己的網域嗎？沒有的話不妨考慮申請一個，可以用在自己的 blog 或是 email 上。 為了給自己的 blog 一個網址，我在 Namecheap 上註冊了 JyunfanTsai.com 。
-選擇 Namecheap 的一個原因是它支援 Bitcoin 付款，操作方法如下：
-首先選擇 & &hellip;">
+  <meta name="description" content="當在逛別人用 Octopress 建立的網站時，
+看到一些非 blog 的頁面，如 About，這是官網安裝步驟沒有提到的。經過尋找後，看到好心人士簡單說明他的作法。
+要建立 About 頁面只需要兩個動作： 用 rake 產生一個名為 about 的 page : rake new_page[" &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -40,7 +40,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Go Deep, Have Fun</a></h1>
   
-    <h2>Jyunfan Tsai's blog</h2>
+    <h2>軟體 / 創業 / Bitcoin</h2>
   
 </hgroup>
 
@@ -60,6 +60,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
 </ul>
 
 </nav>
@@ -73,7 +74,53 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/06/22/namecheap/">當 Namecheap 遇上 Bitcoin</a></h1>
+      <h1 class="entry-title"><a href="/posts/2013/06/30/create-about/">如何在 Octopress 中建立 About 頁面</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-30T13:34:00+08:00" pubdate data-updated="true">Jun 30<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>當在逛別人用 Octopress 建立的<a href="https://github.com/imathis/octopress/wiki/Octopress-Sites">網站</a>時，
+看到一些非 blog 的頁面，如 About，這是官網安裝步驟沒有提到的。經過尋找後，看到好心人士簡單說明他的作法。
+要建立 About 頁面只需要兩個動作：</p>
+
+<ol>
+<li>用 rake 產生一個名為 about 的 page : <code>rake new_page["about"]</code></li>
+<li>將此 page 的聯結放到 menu 上 : 修改 template <code>./source/about/index.markdown</code></li>
+</ol>
+
+
+<p>詳細步驟請見 <a href="http://amaras-tech.co.uk/article/222">Add about page to Octopress</a>。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/posts/2013/06/22/namecheap/">當 Namecheap 遇上 Bitcoin</a></h1>
     
     
       <p class="meta">
@@ -120,7 +167,7 @@ Bitcoin 匯到此地址就可以。匯款完成之後需要等約一小時完成
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/06/15/bitmessage/">Bitmessage</a></h1>
+      <h1 class="entry-title"><a href="/posts/2013/06/15/bitmessage/">Bitmessage - 新興的 P2P 的通訊軟體</a></h1>
     
     
       <p class="meta">
@@ -266,7 +313,7 @@ but the problem you need to solve is related to SQLite.
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2013/06/07/octopress/">Octopress</a></h1>
+      <h1 class="entry-title"><a href="/posts/2013/06/07/octopress/">Octopress</a></h1>
     
     
       <p class="meta">
@@ -341,22 +388,26 @@ but the problem you need to solve is related to SQLite.
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/06/22/namecheap/">當 Namecheap 遇上 Bitcoin</a>
+        <a href="/posts/2013/06/30/create-about/">如何在 Octopress 中建立 About 頁面</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/06/15/bitmessage/">Bitmessage</a>
+        <a href="/posts/2013/06/22/namecheap/">當 Namecheap 遇上 Bitcoin</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/06/07/octopress/">Octopress</a>
+        <a href="/posts/2013/06/15/bitmessage/">Bitmessage - 新興的 P2P 的通訊軟體</a>
+      </li>
+    
+      <li class="post">
+        <a href="/posts/2013/06/07/octopress/">Octopress</a>
       </li>
     
   </ul>
 </section>
 <section>
   <h1>Categories</h1>
-    <ul id="category-list"><li><a href='/blog/categories/bitcoin/'>Bitcoin (1)</a></li><li><a href='/blog/categories/bitmessage/'>Bitmessage (1)</a></li><li><a href='/blog/categories/octopress/'>Octopress (1)</a></li></ul>
+    <ul id="category-list"><li><a href='/blog/categories/bitcoin/'>Bitcoin (1)</a></li><li><a href='/blog/categories/bitmessage/'>Bitmessage (1)</a></li><li><a href='/blog/categories/octopress/'>Octopress (2)</a></li></ul>
 </section>
 
 
