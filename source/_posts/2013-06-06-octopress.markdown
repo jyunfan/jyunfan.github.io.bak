@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "octopress"
+title: "Octopress"
 date: 2013-06-07 17:32
 comments: true
 categories: [Octopress]

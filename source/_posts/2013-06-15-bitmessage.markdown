@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bitmessage"
+title: "Bitmessage - 新興的 P2P 的通訊軟體"
 date: 2013-06-15 22:21
 comments: true
 categories: [Bitmessage]
